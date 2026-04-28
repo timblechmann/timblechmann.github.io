@@ -1,0 +1,38 @@
+# The URL the site will be built for
+base_url = "https://timblechmann.github.io"
+
+title = "Tim Blechmann — C++ Libraries"
+description = "C++ libraries by Tim Blechmann"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+theme = "terminus"
+
+[markdown]
+render_emoji = false
+github_alerts = true
+
+[markdown.highlighting]
+style = "inline"
+theme = "monokai"
+
+[extra]
+layout = "center"
+show_default_author = false
+copyright = ""
+
+main_menu = [
+    { name = "github", url = "https://github.com/timblechmann", new_tab = true },
+    { name = "music", url = "https://tim.klingt.org", new_tab = true },
+    { name = "linkedin", url = "https://www.linkedin.com/in/timblechmann", new_tab = true },
+]
+
+socials = [
+    { name = "website", url = "https://tim.klingt.org" },
+    { name = "github", url = "https://github.com/timblechmann" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/timblechmann" },
+]
