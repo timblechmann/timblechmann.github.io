@@ -56,3 +56,11 @@ Lock-free FIFO queues and stacks for concurrent programming without mutexes. Bro
 ### [Boost.Heap](https://www.boost.org/doc/libs/release/doc/html/heap.html)
 
 Priority queue data structures: d-ary heap, Fibonacci heap, binomial heap, and more. Written for Google's Summer of Code.
+
+---
+
+## Other Tools
+
+### [icecc-mon](https://github.com/timblechmann/icecc-mon-rs)
+
+A lightweight TUI monitor for the `icecc` distributed compilation system.
