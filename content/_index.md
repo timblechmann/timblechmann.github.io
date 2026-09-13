@@ -39,6 +39,10 @@ C++ std::pmr::memory_resource implementations. Features real-time-safe TLSF allo
 
 Header-only template keyword parameter library for C++20. Provides type-safe, compile-time parameter extraction, validation concepts, and named template arguments.
 
+### [nova-inplace-function](https://github.com/timblechmann/nova_inplace_function)
+
+Fixed-capacity, non-allocating function wrappers for C++20 based on SG14 `stdext::inplace_function`. Inline closure storage (default 3 pointers), copyable and move-only variants, qualified-signature support — suitable for embedded, real-time, and hot-path use.
+
 ### [nova-simd](https://github.com/timblechmann/nova-simd)
 
 Header-only SIMD framework for audio and computer music applications. Provides a templated vec class abstracting SSE/SSE2, AVX, PowerPC/Altivec, and ARM/NEON with vectorized math operations, audio DSP functions, and mixed scalar/vector operations. Originally developed for and extracted from SuperCollider.
